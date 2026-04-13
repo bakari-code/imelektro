@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugradnja klima i video nadzora</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #0a74da;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 30px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            flex: 1;
+            min-width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #0a74da;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vaša firma</h1>
+    <p>Montaža klima | Video nadzor | Alarmni sistemi</p>
+</header>
+
+<nav>
+    <a href="#usluge">Usluge</a>
+    <a href="#o-nama">O nama</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+    <h2>Brza i profesionalna ugradnja</h2>
+    <p>Radimo Pančevo, Beograd i okolinu</p>
+    <a href="#kontakt" class="btn">Pozovite odmah</a>
+</section>
+
+<div class="container" id="usluge">
+    <h2>Naše usluge</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Montaža klima uređaja</h3>
+            <p>Ugradnja, servis i održavanje svih tipova klima uređaja.</p>
+        </div>
+        <div class="card">
+            <h3>Video nadzor</h3>
+            <p>Instalacija kamera za kuće, lokale i firme.</p>
+        </div>
+        <div class="card">
+            <h3>Alarmni sistemi</h3>
+            <p>Ugradnja i povezivanje alarmnih sistema.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="o-nama">
+    <h2>O nama</h2>
+    <p>
+        Bavimo se profesionalnom montažom klima uređaja, video nadzora i alarmnih sistema.
+        Dugogodišnje iskustvo, kvalitetan rad i zadovoljni klijenti su naša preporuka.
+    </p>
+</div>
+
+<div class="container" id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Telefon:</strong> 06X/XXX-XXX</p>
+    <p><strong>Lokacija:</strong> Pančevo</p>
+    <p><strong>Email:</strong> tvojemail@gmail.com</p>
+
+    <a href="tel:06XXXXXXXX" class="btn">Pozovi</a>
+</div>
+
+<footer>
+    <p>© 2026 Vaša firma - Sva prava zadržana</p>
+</footer>
+
+</body>
+</html>
